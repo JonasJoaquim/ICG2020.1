@@ -1,0 +1,3 @@
+Foi preciso a implementeação do Glut(free glut vers. 3.2.1) e Glew(vers. 2.1).
+Tive que incluir o header Windows.h para algumas funcões usadas ao decorrer do codigo, como o Malloc na função LoadShader.
+Porém nao consegui linkar os shaders, mesmo colocando nas pastas ou linkando como arquivo diretamente.
