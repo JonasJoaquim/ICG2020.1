@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1602074891 source:c:\users\jonas\desktop\files codeblocks\projetoicg\main.cpp
+	"main.h"
+
+1602072509 c:\users\jonas\desktop\files codeblocks\projetoicg\main.h
+	<gl/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<windows.h>
+	<errno.h>
+
+1501501581 c:\program files\codeblocks\mingw\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1426360528 c:\program files\codeblocks\mingw\include\gl\glut.h
+	"freeglut_std.h"
+
+1426360528 c:\program files\codeblocks\mingw\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1606701030 source:c:\users\jonas\desktop\files codeblocks\zprojetoicg\main.cpp
+	"main.h"
+
+1602072509 c:\users\jonas\desktop\files codeblocks\zprojetoicg\main.h
+	<gl/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<windows.h>
+	<errno.h>
+

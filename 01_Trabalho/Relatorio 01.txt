@@ -1,0 +1,15 @@
+Foi preciso a implementeação do Glut(free glut vers. 3.2.1) e Glew(vers. 2.1).
+Tive que incluir o header Windows.h para algumas funcões usadas ao decorrer do codigo, como o Malloc na função LoadShader.
+Depois tive problemas com a função de carregar o shader pois os shaders não estavam sendo abertos
+pela chamada (FILE* f = fopen(file_name, "rb");), então contei com a ajuda do professor para resolver esse problema
+atraves de uma chamada de video vimos que a solução era 
+1- incluir a biblioteca "errno.h";
+2- a criação dentro do loadShader de uma variavel(Que chamei de err) do tipo errno_t para ser usada nas funções a seguir;
+3- Substituir o codigo de abrir o shader (FILE* f = fopen(file_name, "rb") por 
+   if (( err = fopen_s(&f, file_name, "rb")) != 0) {
+
+    fprintf(stderr, "cannot open file '%s': %s\n",
+            file_name, strerror(err));
+
+    }
+Depois dessas alterações o shader foi carregado e o trabalho foi executado como deveria.
