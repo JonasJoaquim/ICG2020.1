@@ -1,0 +1,9 @@
+A instalação da biblioteca glm foi tranquila.
+No inicio tive problemas pois estava usando os shaders errados e não conseguia fazer as transformações nos triangulos.
+Depois de baixar e usar os shaders certos, consegui fazer tranquilamente as questões 1,2 e 3.
+No exercicio 4 tentei usar as funções oferecidas pela biblioteca para fazer os calculos necessarios para o exercicio 4
+mas não saiu como deveria o resultado foi o que esta no print "Problema de calculo do exercicio 04".
+Então fiz os calculos manualmente, achei o xcam,ycam e zcam para fazer a matriz da base e sua transposta
+e fiz a matriz T para transladar a base da camera (Essas duas matrizes e a matriz do produto delas, a Mview consta no print
+"Calculo da Mview do exercicio 4") ai encontrei a matriz que precisava, converti pra float e alterei no codigo e deu certo.
+A quinta questão não pude fazer ja que tive problemas com a função glm e faze-la manualmente seria deveras complicado.
